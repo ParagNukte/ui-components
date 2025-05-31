@@ -8,33 +8,32 @@ My UI Library is a React-based component library built using Tailwind CSS and Ty
 
 ## Repository Structure
 
-```
+```plaintext
 my-ui-library/
-├── package.json                // Root workspace configuration
-├── tsconfig.json               // Global TypeScript config (optional)
-├── README.md                   // Project overview and workflow
+├── package.json           // Root workspace configuration
+├── tsconfig.json          // Global TypeScript config (optional)
+├── README.md              // Project overview and workflow
 └── packages/
-    ├── ui-components/          // Core component library
+    ├── ui-components/     // Core component library
     │   ├── package.json
     │   ├── tsconfig.json
     │   ├── tailwind.config.js
     │   ├── postcss.config.js
     │   ├── src/
-    │   │   ├── components/     // React components (e.g., Button.tsx, Modal.tsx)
-    │   │   ├── utils/          // Utility functions (e.g., cn.ts for class merging)
-    │   │   └── styles/         // Global Tailwind CSS styles (optional)
-    │   └── __tests__/          // Tests using Jest & React Testing Library
-    └── docs/                   // Next.js based demo & documentation site
+    │   │   ├── components/  // React components (e.g., Button.tsx, Modal.tsx)
+    │   │   ├── utils/       // Utility functions (e.g., cn.ts for class merging)
+    │   │   └── styles/      // Global Tailwind CSS styles (optional)
+    │   └── tests/           // Tests using Jest & React Testing Library
+    └── docs/               // Next.js based demo & documentation site
         ├── package.json
         ├── tsconfig.json
         ├── next.config.js
         ├── tailwind.config.js
         ├── postcss.config.js
-        ├── public/
-        ├── pages/              // Documentation pages (_app.tsx, index.tsx, etc.)
-        └── components/         // Demo site specific components (e.g., Layout.tsx)
+        ├── public/          // Static assets (images, fonts, etc.)
+        ├── pages/           // Documentation pages (_app.tsx, index.tsx, etc.)
+        └── components/      // Demo site specific components (e.g., Layout.tsx)
 ```
-
 ## Workflow
 
 1. **Setup & Installation:**
